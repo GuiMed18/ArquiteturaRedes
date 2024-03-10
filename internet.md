@@ -95,3 +95,113 @@ Serviço de terminal - Não tem criptografia
 
 ### SSH
 Serviço de terminal - Tem criptografia
+
+## Computação distribuída
+
+Diferente da centralizada, os dispositivos conseguem fazer o próprio processamento.
+
+### Cliente-Servidor
+
+#### Classificação de Hardware
+
+Máquina Cliente - pc, note, celular
+
+Máquina Servidora - Hardware mais parrudo e preparado para manter processos e serviços funcionando.
+
+#### Classificação de Software
+
+Se resume a aplicações cliente e servidor
+
+##### Aplicação servidora Web
+Ex: Apache HTTP, nginx, lls, Banco de dados
+
+##### Aplicação cliente Web 
+ex: Chrome, firefox, Edge
+
+##### Tipos de servidores
+
+Arquivos, Banco de dados, Impressão
+
+#### Classificação de rede local (Cliente-Servidor)
+
+Pelo login e senha, o usuário pode acessar arquivos, sites, impressoras de acordo com a permissão do administrador.
+
+Rede de autenticação e serviço de diretório.
+
+##### Serviço de diretório
+
+Indica as permissões de acesso a rede.
+
+### Classificação de Rede Ponta a ponta (P2P)
+
+Tipo de rede mais usual no mercado - SOHO (Small Office / Home Office)
+
+##### SOHO
+
+É possível transformar sua própria máquina em um pequeno servidor para compartilhar arquivos, sem a necessidade de uma instalação complexa de servidores.
+
+Redes P2P não tem servidor de autenticação nem serviço de diretório, senhas são configuradas individualmente nas máquinas.
+
+##### Ponto a Ponto
+
+Redes de compartilhamento de arquivo na internet.
+Ex: Torrent, eMule
+
+Compartilhamento de arquivos espalhados pela internet sem burocracia
+
+##### Diferença entre SOHO e Ponto a ponto
+
+A rede ponto a ponto, a partir do momento em que você baixa um bloco de arquivo, sua máquina começa a compartilhar este como se fosse um servidor, a rede SOHO é uma rede doméstica sem monitoramento para compartilhamento entre os usuários
+
+### Computação em núvem
+
+Infra de hardware e software de rede onde não importa onde está a máquina física.
+
+#### Nuvem privada
+
+Serviços de infra mantidos em rede privada, pertence a empresas e fica nas dependências da empresa.
+
+#### Nuvem Pública
+
+Serviços de infra são mantidos por empresa externa.
+
+#### Tipos de computação em núvem
+
+##### SaaS (Software as a service)
+
+Ao invés de instalar um software na máquina, você acessa ele ou armazenamento na núvem.
+
+Exemplos: Office 365, OneDrive, Google Drive, iCloud
+
+##### PaaS (Platform as a service)
+
+Núvem para desenvolvedores de software, ao invés de ter uma plataforma para desenvolver na máquina, é possível acessar na núvem.
+
+Exemplos: Windows Azure, Google App Engine.
+
+##### IaaS (Infrastructure as a Service)
+
+Concede toda uma infraestrutura de um datacenter pela núvem.
+
+Exemplos: Microsoft Azure, Google Cloud, AWS.
+
+## Computação cooperativa (paralelismo)
+
+Ao invés de utilizar um servidor parrudo, utiliza várias unidades de processamento.
+
+### Computação em Cluster
+
+Monta vários computadores, conecta eles entre si com um software para processar dados.
+
+Estão no mesmo local
+
+### Computação em grade
+
+Parecido com cluster, porém as máquinas estão em vários lugares.
+
+Exemplos: Folding@Home (Busca cura para doenças), 
+Seti@Home (Busca vida fora da terra).
+
+Instala o cliente no desk, e quando ele estiver ocioso, ele baixa e processa blocos de dados e envia os dados ao servidor
+
+
